@@ -15,8 +15,9 @@
     <mj-attributes>
       <mj-all font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans serif"/>
       <mj-class name="T35-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="35px" line-height="42px" font-weight="300"/>
-      <mj-class name="T14-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px" font-weight="400"/>
-      <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700" text-transform="uppercase"></mj-button>
+      <mj-class name="T14-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px" font-weight="400"/>
+      <mj-class name="T11-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="11px" line-height="14px" font-weight="400"/>
+      <mj-button padding="0" inner-padding="10px 10px" background-color="#73389B" width="163px" border-radius="20px" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700" text-transform="uppercase"></mj-button>
       <mj-class name="cT1" color="#2c262d"/>
       <mj-class name="bgT1" background-color="#2c262d"></mj-class>
       <mj-class name="cT0" color="#000000"/>
@@ -50,8 +51,9 @@
       </mj-column>
       <mj-column padding="22px 50px 20px 50px" width="100%">
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T35-300 cB">Ultimate Speed and Capacity with WiFi 6</mj-text>
-        <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T14-400 cT1">Offer customers and employees inside the best WiFi with higher speeds, less congestion, higher device density, higher battery life for WiFi 6 devices.</mj-text>
+        <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T14-300 cT1">Offer customers and employees inside the best WiFi with higher speeds, less congestion, higher device density, higher battery life for WiFi 6 devices.</mj-text>
         <mj-button>Learn More</mj-button>
+        <mj-spacer height="15px"/>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgW" padding="0">
@@ -62,6 +64,7 @@
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T35-300 cB">Save on wireless</mj-text>
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T14-400 cT1">From SMBs to home office environments NETGEAR provides a range of wireless products that help keep business online and making money. Get business online and making money. Get business grade WiFi that is secure, reliable, and blazing fast for less with NETGEAR.</mj-text>
         <mj-button>Learn More</mj-button>
+        <mj-spacer height="15px"/>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgW" padding="0">
@@ -72,6 +75,7 @@
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T35-300 cB">Let PoE change the way you power devices</mj-text>
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T14-400 cT1">Power over Ethernet(PoE) provides power and network connectivity for PoE-powered devices over a single network cable. It's 2 in 1 solution, so you don't have to worry about placing your devices next to a power outlet. PoE devices range from wireless access points, IP cameras, VoIP phones, PoE LED lighting, PoE speakers to IoT devices. These devices are powered and, in some cases, manageable by our PoE switches whether in the office or at home.</mj-text>
         <mj-button>Learn more</mj-button>
+        <mj-spacer height="15px"/>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgW" padding="0">
@@ -82,6 +86,7 @@
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T35-300 cB">Industry-leading Switching</mj-text>
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T14-400 cT1">NETGEAR switches are the #1 choice for small businesses around the world. Over the last 20+ years, we have sold more switches than there are small businesses globally. Our customers tell us they love the reliability, build quality, affordability and ease of setup. They often install the switch and never look at it again-it just works.</mj-text>
         <mj-button>Learn more</mj-button>
+        <mj-spacer height="15px"/>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgW" padding="0">
@@ -92,7 +97,8 @@
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T35-300 cB">At Work. At Home. Data Protected.</mj-text>
         <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T14-400 cT1">Most companies utilise data for different aspects of their business. Without an exception, data backup is part of any operational plan and every business continuity plan. If you are looking for a data backup solution, ReadyNAS is the leader in the industry for SMBs-limited budget, but highly scalable with enterprise class reliability and security.</mj-text>
         <mj-button>Learn more</mj-button>
-        <mj-text align="center" padding="0" padding-bottom="14px">* Terms & Conditions: Offer valid until October 1st 2021 | Not valid in combination with other conditions, special bids, BER and Promotions | Offer only valid for NETGEAR VAR & DMR | NETGEAR reserves the right to terminate this offer without prejudice or prior notice | E&OE.</mj-text>
+        <mj-spacer height="15px"/>
+        <mj-text align="center" padding="0" padding-bottom="14px" mj-class="T11-400 cT1">* Terms & Conditions: Offer valid until October 1st 2021 | Not valid in combination with other conditions, special bids, BER and Promotions | Offer only valid for NETGEAR VAR & DMR | NETGEAR reserves the right to terminate this offer without prejudice or prior notice | E&OE.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
