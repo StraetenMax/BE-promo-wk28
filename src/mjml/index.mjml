@@ -17,6 +17,7 @@
       <mj-class name="T35-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="35px" line-height="42px" font-weight="300"/>
       <mj-class name="T25-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="25px" line-height="35px" font-weight="300"/>
       <mj-class name="T14-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px" font-weight="400"/>
+      <mj-class name="T12-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="15px" font-weight="400"/>
       <mj-class name="T11-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="11px" line-height="14px" font-weight="400"/>
       <mj-button padding="0" inner-padding="10px 10px" background-color="#73389B" width="163px" border-radius="20px" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700" text-transform="uppercase"></mj-button>
       <mj-class name="cT1" color="#2c262d"/>
@@ -102,29 +103,31 @@
         <mj-text align="center" padding="0" padding-bottom="14px" mj-class="T11-400 cT1">* Terms & Conditions: Offer valid until October 1st 2021 | Not valid in combination with other conditions, special bids, BER and Promotions | Offer only valid for NETGEAR VAR & DMR | NETGEAR reserves the right to terminate this offer without prejudice or prior notice | E&OE.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image src="./images/NetgearBusinessBlack.png" alt="logo Netgear en noir"/>
-      </mj-column>
-      <mj-column></mj-column>
-      <mj-column>
-        <mj-social>
-          <mj-social-element src="./images/iconLinkedin.png" href="https://www.linkedin.com/company/netgearbe/"/>
-          <mj-social-element src="./images/iconTwitter.png" href="https://twitter.com/NETGEARBE"/>
-          <mj-social-element src="./images/iconFacebook.png" href="https://www.facebook.com/NETGEARBE"/>
-          <mj-social-element src="./images/iconYoutube.png" href="https://www.youtube.com/user/NETGEAR"/>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-text>+32 (0)2 709 23 00 | rapidresponse@netgear.com or lu.rapidresponse@netgear.com |</mj-text>
-        <mj-text>NETGEAR Belgium | Regus Brussels Airport - Pegasuslaan 5 - Diegem 1831 - Belgium</mj-text>
-        <mj-text>This email is intended for %%emailaddr%% . If you no longer wish to receive emails, you may unsubscribe .</mj-text>
-        <mj-text>This email was sent by: %%Member_Busname%%</mj-text>
-        <mj-text>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%</mj-text>
-        <mj-text>Update Profile </mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-wrapper mj-class="bgW" padding="30px 28px 20px 31px">
+      <mj-section padding="0" padding-bottom="36px">
+        <mj-column width="100px" padding="0" vertical-align="middle">
+          <mj-image padding="0" width="100px" src="./images/NetgearBusinessBlack.png" alt="logo Netgear en noir"/>
+        </mj-column>
+        <mj-column width="59%"></mj-column>
+        <mj-column width="25%" vertical-align="middle">
+          <mj-social padding="0" icon-size="25px">
+            <mj-social-element src="./images/iconLinkedin.png" href="https://www.linkedin.com/company/netgearbe/"/>
+            <mj-social-element src="./images/iconTwitter.png" href="https://twitter.com/NETGEARBE"/>
+            <mj-social-element src="./images/iconFacebook.png" href="https://www.facebook.com/NETGEARBE"/>
+            <mj-social-element src="./images/iconYoutube.png" href="https://www.youtube.com/user/NETGEAR"/>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" padding-bottom="22px">
+        <mj-column>
+          <mj-text padding="0" padding-bottom="14px" mj-class="T12-400 cT1">+32 (0)2 709 23 00 | <a style="text-decoration:none;color:#73389B;" href="mailto:rapidresponse@netgear.com">rapidresponse@netgear.com</a> or <a style="text-decoration:none;color:#73389B;" href="mailto:lu.rapidresponse@netgear.com">lu.rapidresponse@netgear.com</a> |</mj-text>
+          <mj-text padding="0" padding-bottom="14px" mj-class="T12-400 cT1">NETGEAR Belgium | Regus Brussels Airport - Pegasuslaan 5 - Diegem 1831 - Belgium</mj-text>
+          <mj-text padding="0">This email is intended for <a style="text-decoration:none;color:#73389B;" href="#">%%emailaddr%%</a>. If you no longer wish to receive emails, you may unsubscribe .</mj-text>
+          <mj-text padding="0">This email was sent by: <strong>%%Member_Busname%%</strong></mj-text>
+          <mj-text padding="0" padding-bottom="14px">%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%</mj-text>
+          <mj-text padding="0" mj-class="T12-400 cB"><a href="#">Update Profile</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>
